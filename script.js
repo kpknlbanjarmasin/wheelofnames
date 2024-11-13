@@ -99,7 +99,7 @@ function draw(){
         ctx.restore();
 
         // check winner
-        if(startDeg%360 < 360 && startDeg%360 > 270 && endDeg%360 > 0 && endDeg%360<90){
+        if(startDeg%360 < 360 && startDeg % 360 > 270 && endDeg % 360 > 0 && endDeg%360 < 90){
             document.getElementById("winner").innerHTML = items[i]
         }
     }

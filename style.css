@@ -9,6 +9,11 @@ body{
     margin-bottom: 40px;
 }
 
+button .putar{
+    font-weight:700;
+    font-size: large;
+}
+
 .header h1, p{
     text-align: center;
 }
@@ -21,12 +26,17 @@ body{
 .center-circle{
     width: 100px;
     height: 100px;
-    border-radius: 60px;
-    background-color: white;   
-    border-style: dotted;
+    border-radius: 50%;
+    outline: none;
+    background: linear-gradient(
+        145deg, #171717, #444245
+    );
+    box-shadow: inset 2px 2px 0px #7d7c7e, inset -2px -2px 0px #1c1c1c;   
+    /* border-style: dotted; */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    color: #a6a6a6;
 }
 
 .triangle{
